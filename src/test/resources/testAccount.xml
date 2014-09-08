@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mailAccount>
+    <accountName>TestAccount</accountName>
+    <mailHost>localhost</mailHost>
+    <password>VGVzdFVzZXI=</password>
+    <pollPeriode>300</pollPeriode>
+    <port>3110</port>
+    <ssl>false</ssl>
+    <storeType>POP3</storeType>
+    <userName>TestUser</userName>
+</mailAccount>
