@@ -6,7 +6,7 @@
   <name>JMailChecker</name>
   <version>1.0</version>
   <description>JMailChecker is a Java/Swing-based desktop-application for monitoring email-accounts using pop3 or imap.
-		Inspired by the "Magic Mail Monitor" but written in Java to be used under Linux or Mac OS as well.</description>
+        Inspired by the "Magic Mail Monitor" but written in Java to be used under Linux or Mac OS as well.</description>
   <url>http://sourceforge.net/projects/jmailchecker/</url>
   <issueManagement>
     <system>SourceForge.net</system>
@@ -323,6 +323,7 @@
     <java.version>1.7</java.version>
     <schalm-util.version>1.0-SNAPSHOT</schalm-util.version>
     <log4j.version>1.2.17</log4j.version>
+    <additionalparam>-Xdoclint:none</additionalparam>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <junit.version>4.10</junit.version>
   </properties>
