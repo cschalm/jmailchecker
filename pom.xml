@@ -252,7 +252,7 @@
                     <getRevisionOnlyOnce>true</getRevisionOnlyOnce>
                     <shortRevisionLength>5</shortRevisionLength>
 					-->
-					<format>{0,number}-{1,number}</format>
+					<format>{0,number}-{1,date,yyyy-MM-dd HH:mm:ss}</format>
 					<items>
 						<item>buildNumber0</item>
 						<item>timestamp</item>
