@@ -39,8 +39,8 @@
         <url>https://github.com/cschalm/jmailchecker</url>
     </scm>
     <ciManagement>
-        <system>continuum</system>
-        <url>http://192.168.0.90:8080/continuum/</url>
+        <system>Jenkins</system>
+        <url>http://192.168.0.110:8080/</url>
     </ciManagement>
     <issueManagement>
         <system>SourceForge.net</system>
@@ -252,9 +252,10 @@
                     <getRevisionOnlyOnce>true</getRevisionOnlyOnce>
                     <shortRevisionLength>5</shortRevisionLength>
 					-->
-					<format>{0,number}</format>
+					<format>{0,number}-{1,number}</format>
 					<items>
 						<item>buildNumber0</item>
+						<item>timestamp</item>
 					</items>
                 </configuration>
                 <executions>
