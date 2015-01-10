@@ -245,11 +245,17 @@
                 <artifactId>buildnumber-maven-plugin</artifactId>
                 <version>1.3</version>
                 <configuration>
+					<!--
                     <doCheck>false</doCheck>
                     <doUpdate>true</doUpdate>
-                    <revisionOnScmFailure>true</revisionOnScmFailure>
+                    <revisionOnScmFailure>na</revisionOnScmFailure>
                     <getRevisionOnlyOnce>true</getRevisionOnlyOnce>
                     <shortRevisionLength>5</shortRevisionLength>
+					-->
+					<format>{0,number}</format>
+					<items>
+						<item>buildNumber0</item>
+					</items>
                 </configuration>
                 <executions>
                     <execution>
